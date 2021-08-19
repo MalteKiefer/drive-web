@@ -13,18 +13,14 @@ jobs:
         node-version: [16.x]
     steps:
       - uses: actions/checkout@v2
-
       - name: Setup Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-          registry-url: 'https://npm.pkg.github.com'
-
+          registry-url: "https://npm.pkg.github.com"
       - uses: actions/create-npmrc@v1
-
       - name: Install dependencies
       - run: yarn
-
       - name: Run tests
       - run: yarn run test
         env:
