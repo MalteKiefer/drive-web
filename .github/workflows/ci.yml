@@ -20,8 +20,8 @@ jobs:
           registry-url: "https://npm.pkg.github.com"
       - uses: actions/create-npmrc@v1
       - name: Install dependencies
-      - run: yarn
+        run: yarn
       - name: Run tests
-      - run: yarn run test
+        run: yarn run test
         env:
           CI: true
