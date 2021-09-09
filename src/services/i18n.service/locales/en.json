@@ -48,6 +48,24 @@
     "download": "Download",
     "accessFile": "Access File"
   },
+  "preferences": {
+    "menu" : {
+      "account": "Check your storage user and account details",
+      "plans": "Find the different storage and solution options that Internxt offers",
+      "password": "Change your password",
+      "security": "Activate two-factor authentication"
+    },
+    "account": {
+      "data-edited": "For strict security reasons and to protect your data at Internxt we do not allow the data of a user account such as email to be modified.",
+      "security-account": ""
+    },
+    "change-password": {
+      "encryption-key": "If you forget your password all your files will be gone. With us, you're the only owner of your files.",
+      "password-treatment": "Internxt uses your password to encrypt and decrypt your files. Due to the secure nature of Internxt, we don't know your password."
+    },
+    "security": {
+    }
+  },
   "tasks": {
     "create-folder": {
       "pending": "Pending to create folder",
